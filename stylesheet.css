@@ -13,6 +13,7 @@ h1, p{
 
 }
 
+
 /* p{
     color: white;
     text-align: center;
@@ -47,4 +48,40 @@ body, html{
     position: relative;
     left: 40px;
 
+}
+
+.buttonalign{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.cardborder{
+    position: relative;
+    left: 20px;
+    margin: 4px;
+    padding: 2px;
+}
+
+.cardsize{
+    width: 250px;
+    height: 250px;
+}
+
+.img-fluid{
+    height: 495px;
+    width: 494px;
+    text-align: center;
+    display: inline-block;
+}
+
+.indextext, h2{
+    margin-top: 200px;
+    font-size: 80px;
+    color:white;
+    text-align: center;
+}
+
+.indextext, .p2{
+    font-size: 45px;
 }
