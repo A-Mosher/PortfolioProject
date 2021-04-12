@@ -39,12 +39,16 @@ body {
 body, html{
     height: 100%
 }
-.aboutText, h1, p{
+.aboutText{
     text-align: right;
 }
 .img-fluid{
     border-radius: 20px;
     position: relative;
     left: 40px;
+
+}
+
+{
 
 }
