@@ -1,5 +1,50 @@
-<style>
-div {
-  background-image: src="image/paul-gilmore-5jSRM-M1z2Y-unsplash.jpg";
+/* body{
+    background-image: url("images/paul-gilmore-5jSRM-M1z2Y-unsplash.jpg");
+    max-width: 100%;
+    height: auto;
+    opacity: 0.8;
+} */
+
+
+
+h1, p{
+    color: white;
+    text-align: center;
+
 }
-</style>
+
+/* p{
+    color: white;
+    text-align: center;
+} */
+
+.textwhite{
+    color: white;
+}
+
+
+.backgroundwhite{
+    background-color: white;
+}
+
+
+body {
+    background-image: url("images/paul-gilmore-5jSRM-M1z2Y-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    height: 100%;
+  }
+
+body, html{
+    height: 100%
+}
+.aboutText, h1, p{
+    text-align: right;
+}
+.img-fluid{
+    border-radius: 20px;
+    position: relative;
+    left: 40px;
+
+}

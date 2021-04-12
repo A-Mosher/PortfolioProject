@@ -6,37 +6,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Adam Mosher</a>
+
+    <!-- <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="aboutMe.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="projects.html">Portfolio</a></li>
+      </ul> -->
+
+      <nav class="navbar navbar-expand-lg textwhite">
+        <a class="navbar-brand textwhite" href="index.html">Adam Mosher</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon backgroundwhite"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="aboutMe.html">About</a>
-            <a class="nav-item nav-link" href="contact.html">Contact</a>
-            <a class="nav-item nav-link disabled" href="projects.html">Projects</a>
+            <a class="nav-item nav-link active textwhite" href="index.html">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link active textwhite" href="aboutMe.html">About</a>
+            <a class="nav-item nav-link active textwhite" href="contact.html">Contact</a>
+            <a class="nav-item nav-link active textwhite" href="projects.html">Projects</a>
           </div>
         </div>
       </nav>
 
+      <h1>Leave Some Info And I'll Get In Touch
+      </h1>
+
+
       <form>
-        <div class="form-group">
-          <label for="exampleFormControlInput1">Name</label>
+        <div class="form-group textwhite">
+          <label for="exampleFormControlInput1 textwhite">Name</label>
           <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Turd Fergeson">
         </div>
 
-        <div class="form-group">
-            <label for="exampleFormControlInput1">Email address</label>
+        <div class="form-group textwhite">
+            <label for="exampleFormControlInput1 textwhite">Email address</label>
             <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
           </div>
 
-        <div class="form-group">
-          <label for="exampleFormControlSelect1">Reason for Contacting</label>
-          <select class="form-control" id="exampleFormControlSelect1">
+        <div class="form-group textwhite">
+          <label for="exampleFormControlSelect1 textwhite">Reason for Contacting</label>
+          <select class="form-control textwhite" id="exampleFormControlSelect1">
             <option>-Select from Dropdown-</option>
             <option>Looking to Hire</option>
             <option>Potential Collaborations</option>
@@ -44,9 +57,9 @@
           </select>
         </div>
         
-        <div class="form-group">
-          <label for="exampleFormControlTextarea1">Message</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        <div class="form-group textwhite">
+          <label for="exampleFormControlTextarea1 textwhite">Message</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1 textwhite" rows="3"></textarea>
         </div>
       </form>
 
@@ -56,3 +69,4 @@
   
 </body>
 </html>
+
