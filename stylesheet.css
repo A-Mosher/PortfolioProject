@@ -1,23 +1,9 @@
-/* body{
-    background-image: url("images/paul-gilmore-5jSRM-M1z2Y-unsplash.jpg");
-    max-width: 100%;
-    height: auto;
-    opacity: 0.8;
-} */
-
-
 
 h1, p{
     color: white;
     text-align: center;
 
 }
-
-
-/* p{
-    color: white;
-    text-align: center;
-} */
 
 .textwhite{
     color: white;
@@ -44,9 +30,12 @@ body, html{
     text-align: right;
 }
 .img-fluid{
-    border-radius: 20px;
     position: relative;
-    left: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 20px;
 
 }
 
@@ -61,18 +50,12 @@ body, html{
     left: 20px;
     margin: 4px;
     padding: 2px;
+    border-radius: 5px;
 }
 
 .cardsize{
     width: 250px;
     height: 250px;
-}
-
-.img-fluid{
-    height: 495px;
-    width: 494px;
-    text-align: center;
-    display: inline-block;
 }
 
 .indextext, h2{
@@ -84,4 +67,17 @@ body, html{
 
 .indextext, .p2{
     font-size: 45px;
+}
+
+.formlength{
+    width: 500px;
+    position: relative;
+    left: 20px;
+
+}
+
+.submit-button{
+    position:relative;
+    left: 20px;
+
 }
